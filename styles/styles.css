@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #3b3b3b;
+}
+
+.main {
+  position: relative;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  min-width: 300px;
+  border-radius: 30px;
+  border-radius: 47px;
+  background: #3b3b3b;
+  box-shadow: 5px 5px 15px #252525, -5px -5px 15px #515151;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 30px 10px;
+  background-color: rgb(31, 30, 30);
+  border-radius: 20px;
+}
+
+.password {
+  align-self: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Quicksand";
+  border-radius: 10%;
+}
+
+.header {
+  align-self: center;
+  text-align: center;
+  margin: 0px;
+  font-family: "Quicksand";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.buttons {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-top: 30px;
+}
+
+.button {
+  padding: 7px 6px 9px 6px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Quicksand";
+  cursor: pointer;
+  box-shadow: 3px 3px 6px #111111, -3px -3px 6px #383838;
+  background-color: #de4e4e;
+}
+
+.button:hover {
+  background-color: #c44a4a;
+}
+
+.button:active {
+  background-color: #ac4141;
+}
+
+.line {
+  height: 1px;
+  width: 90%;
+  align-self: center;
+  background-color: white;
+}
